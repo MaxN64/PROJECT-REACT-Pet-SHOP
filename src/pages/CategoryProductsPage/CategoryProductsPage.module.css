@@ -1,0 +1,56 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+}
+
+.breadcrumb {
+  padding: 4px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.breadcrumb:hover {
+  background-color: #e0e0e0;
+}
+
+.separator {
+  color: #666;
+}
+
+.breadcrumbActive {
+  padding: 4px 12px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+.message {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+  gap: 20px;
+}

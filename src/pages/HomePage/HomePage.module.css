@@ -1,0 +1,285 @@
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.heroImage {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.heroText {
+  position: absolute;
+  top: 27%;
+  left: 4%;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.heroText h1 {
+  font-size: 96px;
+  margin-bottom: 16px;
+}
+.petsImage {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  /* border: 2px red solid; */
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0d6efd;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.categoriesSection h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+  gap: 20px;
+}
+
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.categoryCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.subscribeSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: rgba(13, 80, 255, 1);
+  color: #fff;
+  border-radius: 8px;
+  
+
+  margin: 40px 0;
+  
+}
+
+.subscribeText h2 {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 3;
+  margin-left: 1rem;
+  width: 30rem;
+  gap: 22px;
+  
+}
+.subscribeText {
+  order: 1;
+  flex-basis: 100%;
+  
+}
+
+.subscribeForm input {
+ 
+  border-radius: 4px;
+  border: none;
+  width: 28rem;
+  height: 58px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgba(13, 80, 255, 1);
+  border: 1px rgba(255, 255, 255, 1) solid;
+}
+.subscribeForm input::placeholder {
+  color: #fff;
+  padding-left: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.imageWrapper {
+  order: 2;
+}
+
+.subscribeForm button {
+  
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 58px;
+  width: 90%;
+  margin-top: 32px;
+}
+
+.saleSection {
+  margin-bottom: 40px;
+}
+
+.saleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.saleHeader h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.viewAll {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+  gap: 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.error {
+  color: #ffc107; 
+  font-size: 14px;
+  margin-top: 4px;
+  display: block;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #ffffff;
+  color: #333;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 360px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.modalClose {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+@media (max-width: 1335px) {
+  .subscribeSection {
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    height: auto; 
+  }
+
+  .heroText {
+    position: absolute;
+    top: 37%;
+    left: 4%;
+    transform: translateY(-50%);
+    color: #ffffff;
+  }
+
+  .subscribeText {
+    
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .imageWrapper {
+  
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .petsImage {
+  
+    max-width: 90%;
+    height: auto;
+  }
+
+  .subscribeForm {
+   
+    order: 3;
+    width: 100%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .subscribeForm input,
+  .subscribeForm button {
+    width: 100%;
+  }
+}
