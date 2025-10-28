@@ -68,7 +68,8 @@ src/components/CategoriesSection/CategoriesSection.jsx
 
 Pages: HomePage, CategoriesPage, CategoryProductsPage, AllProductsPage, SalesPage, ProductDetailPage, CartPage, NotFoundPage
 
-https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190815.png
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190815.png)
+
 
 
 Public assets
