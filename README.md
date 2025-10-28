@@ -1,6 +1,7 @@
 
 
-PROJECT-REACT-PET-SHOP
+#PROJECT-REACT-PET-SHOP
+#🛒 MiniShop E-commerce
 Monorepo for a pet products online store: React (Create React App) frontend and Node.js/Express + Sequelize + SQLite backend.
 
 PROJECT-REACT-PET-SHOP/
