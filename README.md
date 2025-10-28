@@ -69,6 +69,13 @@ src/components/CategoriesSection/CategoriesSection.jsx
 Pages: HomePage, CategoriesPage, CategoryProductsPage, AllProductsPage, SalesPage, ProductDetailPage, CartPage, NotFoundPage
 
 ![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190815.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190834.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190931.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/190953.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/191020.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/191035.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/191052.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-REACT-Pet-SHOP/blob/master/Pet-Shop-Frontend/public/docs/191139.png)
 
 
 
