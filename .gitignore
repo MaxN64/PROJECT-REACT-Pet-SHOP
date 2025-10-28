@@ -1,6 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+
+
 /node_modules
 /.pnp
 .pnp.js
@@ -24,7 +24,7 @@ yarn-error.log*
 
 
 
-# Системные файлы (macOS, Windows)
+
 **/.DS_Store
 **/Thumbs.db
 *.zip
@@ -34,3 +34,18 @@ yarn-error.log*
 *.gz
 *.tgz
 *.tar.gz
+
+/Pet-Shop-Frontend/node_modules/
+/Pet-Shop-Frontend/build/
+/Pet-Shop-Frontend/dist/
+/Pet-Shop-Frontend/.env
+/Pet-Shop-Frontend/.env.*.local
+
+/Pet-Shop-Backend/node_modules/
+/Pet-Shop-Backend/build/
+/Pet-Shop-Backend/dist/
+/Pet-Shop-Backend/.env
+/Pet-Shop-Backend/.env.*.local
+
+
+/archiv/
